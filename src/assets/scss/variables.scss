@@ -1,0 +1,23 @@
+$vermelho: #ff4655;
+$padrao: #d5d4d9;
+$aside: #0E0F1A;
+
+
+$valorant-font: 'Valorant';
+$valorant-src: '../font/ValorantFont.ttf';
+
+$default-font: 'padrao';
+$default-src:'../font/ArborcrestHeavy.ttf';
+@font-face {
+    font-family: $valorant-font;
+    src: url($valorant-src);
+}
+@font-face {
+    font-family: $default-font;
+    src: url($default-src);
+}
+
+@font-face {
+    font-family: Drunk;
+    src: url('../font/Druk.ttf');
+}

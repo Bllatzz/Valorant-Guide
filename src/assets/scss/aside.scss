@@ -1,0 +1,67 @@
+@import 'variables';
+
+.aside {
+  position: fixed;
+  background-color: $aside;
+  width: 10vw;
+  height: 100vh;
+  overflow-y: hidden;
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+
+    img {
+      width: 100px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+
+    .rotate-text {
+      margin: 25px 0 25px 0;
+      color: $padrao;
+      text-align: center;
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      position: relative;
+      font-family: Valorant;
+    
+    
+    }
+
+    .line {
+
+      margin-bottom:0px ;
+      width: 2px;
+      height: 50px;
+      background-color: $padrao;
+    }
+    
+    .losangulo {
+      width: 10px;
+      height: 10px;
+      background-color: $padrao;
+      transform:  rotate(45deg);
+      margin:10px 0 0px 0;
+    }
+    .icons{
+      margin: 20px 0;
+      border: solid 1px #5a5c63;
+      border-radius: 5px;
+      background-color: #1E2431;
+      color:$padrao;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 15px;
+      height: 15px;
+      scale: 1.5;
+    }
+  }
+}
+
