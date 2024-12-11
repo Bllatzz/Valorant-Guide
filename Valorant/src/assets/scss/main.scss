@@ -1,0 +1,29 @@
+@import 'variables';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: padrao;
+  color: white;
+}
+
+body{
+  background-color: #312732;
+  overflow-x: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+    display: flex;
+  }
+  
+.content {
+  flex: 1;
+  padding: 0 0 20px 8vw;
+}
+.center{
+  padding: 0 0 0px 8vw;
+}
+  
